@@ -1,96 +1,119 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Food, LLC</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-  </head>
-<body>
-  <header>
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="index.html" class="pull-left visible-md visible-lg">
-          </a>
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  font-family: 'Georgia', serif;
 
-          <div class="navbar-brand">
-            <a href="index.html"><h1>Food, LLC</h1></a>
-          </div>
+  
+}
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
+.h2 {
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
 
-        <div id="collapsable-nav" class="collapse navbar-collapse hidden-sm">
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li class="visible-xs">
-              <a href="#chicken-tile">
-                <br>Chicken</a><hr>
-            </li>
-            <li class="visible-xs">
-              <a href="#beef-tile">
-                <br>Beef</a><hr>
-            </li>
-            <li class="visible-xs">
-              <a href="#sushi-tile">
-                <br>Sushi<br>&nbsp;</a>
-            </li>
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-      </div><!-- .container -->
-    </nav><!-- #header-nav -->
-  </header>
+ul {
+    background-color: #FFF;
+}
 
+hr {
+  border-top: 1px solid black;
+}
 
-  <div id="main-content" class="container">
-    <p class="text-center h2">Our Menu</p>
-    <div id="home-tiles" class="row">
-      <div class="col-md-12 col-sm-12 col-xs-12">
-        <div id="chicken-tile"><span>Chicken</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at mollis ante. Nullam viverra sem sed metus ultrices auctor. Mauris pulvinar ac dolor in congue. In mi dui, pellentesque ac tempus et, auctor id mi. Praesent vel orci ex. Sed vitae est sem. Nunc sit amet mauris volutpat nisi malesuada maximus id vitae felis. Donec posuere velit ac interdum tincidunt. Phasellus pulvinar efficitur felis quis euismod. Morbi dignissim nec eros eu dignissim. Morbi efficitur ornare erat vitae fermentum. Nunc eget luctus velit, at aliquet lorem. Praesent placerat blandit ullamcorper.
+/** HEADER **/
+#header-nav {
+  background-color: #999;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 2px solid black;
+  padding-bottom: 25px;
+}
 
-Quisque posuere arcu tellus, eget lacinia nunc auctor in. Vestibulum semper luctus mattis. Cras volutpat vehicula bibendum. In laoreet sapien augue, elementum fermentum felis consequat non. In hac habitasse platea dictumst. Curabitur id odio auctor, vulputate urna in, tristique eros. Fusce posuere eros sed neque porttitor, vitae maximus mauris pulvinar. Nunc quis imperdiet sapien. Curabitur accumsan, sapien eu pellentesque tincidunt, est eros imperdiet augue, tempus sodales ipsum diam ac tortor. Vestibulum volutpat nisl nec urna facilisis ultricies. Proin gravida est a leo ultrices, vel gravida lacus efficitur. Integer volutpat in odio non ultricies.
+#collapsable-nav {
 
-Pellentesque semper leo a leo rhoncus, porttitor tempor quam gravida. Maecenas lacinia metus a enim mattis, nec pellentesque metus scelerisque. Nam eget dui ac orci commodo porttitor. Vivamus et mi mattis, hendrerit mi vitae, ullamcorper mauris. Duis ac laoreet lacus, eget blandit nisi. Aliquam porta diam pharetra eleifend tempor. Aenean venenatis id magna a ultricies.
+  color: #000;
 
-Maecenas ac nulla vitae eros pulvinar facilisis. Morbi ultrices efficitur turpis, sit amet hendrerit diam sodales ut. Nunc eu euismod dolor. Maecenas finibus viverra vestibulum. In hac habitasse platea dictumst. Quisque sit amet nibh egestas, varius nisl vitae, aliquam magna. Pellentesque bibendum nunc vel tellus venenatis feugiat. Nam at mollis diam. Pellentesque auctor vulputate mattis. Etiam facilisis justo purus, eu pretium libero rutrum quis. Fusce lacus sem, lobortis in maximus sit amet, dignissim feugiat quam. Pellentesque velit lectus, condimentum eget pretium ac, mollis sit amet tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut mollis eu magna eu facilisis. In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p></div>
-      </div>
-      <div class="col-md-12 col-sm-12 col-xs-12">
-        <div id="beef-tile"><span>Beef</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at mollis ante. Nullam viverra sem sed metus ultrices auctor. Mauris pulvinar ac dolor in congue. In mi dui, pellentesque ac tempus et, auctor id mi. Praesent vel orci ex. Sed vitae est sem. Nunc sit amet mauris volutpat nisi malesuada maximus id vitae felis. Donec posuere velit ac interdum tincidunt. Phasellus pulvinar efficitur felis quis euismod. Morbi dignissim nec eros eu dignissim. Morbi efficitur ornare erat vitae fermentum. Nunc eget luctus velit, at aliquet lorem. Praesent placerat blandit ullamcorper.
+}
+.navbar-brand {
+  padding-top: 25px;
+  margin-bottom: 25px;
 
-Quisque posuere arcu tellus, eget lacinia nunc auctor in. Vestibulum semper luctus mattis. Cras volutpat vehicula bibendum. In laoreet sapien augue, elementum fermentum felis consequat non. In hac habitasse platea dictumst. Curabitur id odio auctor, vulputate urna in, tristique eros. Fusce posuere eros sed neque porttitor, vitae maximus mauris pulvinar. Nunc quis imperdiet sapien. Curabitur accumsan, sapien eu pellentesque tincidunt, est eros imperdiet augue, tempus sodales ipsum diam ac tortor. Vestibulum volutpat nisl nec urna facilisis ultricies. Proin gravida est a leo ultrices, vel gravida lacus efficitur. Integer volutpat in odio non ultricies.
+}
 
-Pellentesque semper leo a leo rhoncus, porttitor tempor quam gravida. Maecenas lacinia metus a enim mattis, nec pellentesque metus scelerisque. Nam eget dui ac orci commodo porttitor. Vivamus et mi mattis, hendrerit mi vitae, ullamcorper mauris. Duis ac laoreet lacus, eget blandit nisi. Aliquam porta diam pharetra eleifend tempor. Aenean venenatis id magna a ultricies.
-
-Maecenas ac nulla vitae eros pulvinar facilisis. Morbi ultrices efficitur turpis, sit amet hendrerit diam sodales ut. Nunc eu euismod dolor. Maecenas finibus viverra vestibulum. In hac habitasse platea dictumst. Quisque sit amet nibh egestas, varius nisl vitae, aliquam magna. Pellentesque bibendum nunc vel tellus venenatis feugiat. Nam at mollis diam. Pellentesque auctor vulputate mattis. Etiam facilisis justo purus, eu pretium libero rutrum quis. Fusce lacus sem, lobortis in maximus sit amet, dignissim feugiat quam. Pellentesque velit lectus, condimentum eget pretium ac, mollis sit amet tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut mollis eu magna eu facilisis. In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p></div>
-      </div>
-            <div class="col-md-12 col-sm-12 col-xs-12">
-        <div id="sushi-tile"><span>Sushi</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at mollis ante. Nullam viverra sem sed metus ultrices auctor. Mauris pulvinar ac dolor in congue. In mi dui, pellentesque ac tempus et, auctor id mi. Praesent vel orci ex. Sed vitae est sem. Nunc sit amet mauris volutpat nisi malesuada maximus id vitae felis. Donec posuere velit ac interdum tincidunt. Phasellus pulvinar efficitur felis quis euismod. Morbi dignissim nec eros eu dignissim. Morbi efficitur ornare erat vitae fermentum. Nunc eget luctus velit, at aliquet lorem. Praesent placerat blandit ullamcorper.
-
-Quisque posuere arcu tellus, eget lacinia nunc auctor in. Vestibulum semper luctus mattis. Cras volutpat vehicula bibendum. In laoreet sapien augue, elementum fermentum felis consequat non. In hac habitasse platea dictumst. Curabitur id odio auctor, vulputate urna in, tristique eros. Fusce posuere eros sed neque porttitor, vitae maximus mauris pulvinar. Nunc quis imperdiet sapien. Curabitur accumsan, sapien eu pellentesque tincidunt, est eros imperdiet augue, tempus sodales ipsum diam ac tortor. Vestibulum volutpat nisl nec urna facilisis ultricies. Proin gravida est a leo ultrices, vel gravida lacus efficitur. Integer volutpat in odio non ultricies.
-
-Pellentesque semper leo a leo rhoncus, porttitor tempor quam gravida. Maecenas lacinia metus a enim mattis, nec pellentesque metus scelerisque. Nam eget dui ac orci commodo porttitor. Vivamus et mi mattis, hendrerit mi vitae, ullamcorper mauris. Duis ac laoreet lacus, eget blandit nisi. Aliquam porta diam pharetra eleifend tempor. Aenean venenatis id magna a ultricies.
-
-Maecenas ac nulla vitae eros pulvinar facilisis. Morbi ultrices efficitur turpis, sit amet hendrerit diam sodales ut. Nunc eu euismod dolor. Maecenas finibus viverra vestibulum. In hac habitasse platea dictumst. Quisque sit amet nibh egestas, varius nisl vitae, aliquam magna. Pellentesque bibendum nunc vel tellus venenatis feugiat. Nam at mollis diam. Pellentesque auctor vulputate mattis. Etiam facilisis justo purus, eu pretium libero rutrum quis. Fusce lacus sem, lobortis in maximus sit amet, dignissim feugiat quam. Pellentesque velit lectus, condimentum eget pretium ac, mollis sit amet tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut mollis eu magna eu facilisis. In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p></div>
-      </div>
-      
-    </div>
-
-  </div>
-  <footer></footer>
+.navbar-brand h1 { /* Restaurant name */
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
 
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
-</body>
-</html>
+#nav-list a {
+  color: #black;
+  text-align: center;
+}
+#nav-list a:hover {
+  font-weight: 900;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+
+
+
+
+#chicken-tile, #beef-tile, #sushi-tile {
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  background-color: #999;
+  overflow: hidden;
+
+
+}
+#chicken-tile:hover, #beef-tile:hover, #sushi-tile:hover {
+  box-shadow: 0 0px 5px 1px #000;
+}
+
+#chicken-tile span, #beef-tile span, #sushi-tile span {
+  width: 100%;
+  position: absolute;
+  margin-top: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
+
+}
+
+#chicken-tile p, #beef-tile p, #sushi-tile p {
+text-align: left;
+font-size: 1em;
+margin: 15px;
+margin-top: 50px;
+text-transform: lowercase;
+  
+
+}
+
+footer {
+  padding: 50px;
+  background-image: url("../images/background pic.png");
+  background-repeat: repeat-x;;
+}
+/* END HOME PAGE */
