@@ -15,7 +15,6 @@ body {
 
 ul {
     background-color: #FFF;
-    border: 1px solid black;
 }
 
 hr {
@@ -34,7 +33,7 @@ hr {
 #collapsable-nav {
 
   color: #000;
-  font-weight: bold;
+
 }
 .navbar-brand {
   padding-top: 25px;
@@ -59,7 +58,7 @@ hr {
   text-align: center;
 }
 #nav-list a:hover {
-  background: #999;
+  font-weight: 900;
 }
 #nav-list a span {
   font-size: 1.8em;
@@ -76,6 +75,7 @@ hr {
 /* END HEADER */
 
 /* HOME PAGE */
+
 
 
 
